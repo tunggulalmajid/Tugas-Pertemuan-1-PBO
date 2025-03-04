@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="burung.cs" />
     <Compile Include="ikan.cs" />
+    <Compile Include="komputer.cs" />
     <Compile Include="mobil_sedan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

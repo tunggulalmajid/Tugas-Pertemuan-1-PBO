@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using sebuah_konstruktor;
 
 namespace Tunggul_Abdul_Majid_242410102058
 {
@@ -18,6 +20,9 @@ namespace Tunggul_Abdul_Majid_242410102058
             ikan cupang = new ikan("Cupang", "Betta Splendens", "Hitam", "Kolam, Aquarium");
             burung cenderawasih = new burung("Cenderawasih", "Paradisaea Rubra","Merah", "Papua, Indonesia");
             burung kakatua = new burung("Kakatua", "Cacatuidae", "Putih", "Australia, Indonesia Timur, dan Papua Nugini");
+            komputer kentang = new komputer("Intel Core i3 7100", "Asrock H110", "Gamemax 450 watt", "Zotac GTX 750 TI", "Cube Gaming weiss");
+            komputer bagus = new komputer("Intel Core i5 12500k", "Asrock Z390", "Cooler Master MWE 650 watt", "MSI RTX 4060 TI", "NZXT One");
+
 
             Console.ReadLine();
         }
