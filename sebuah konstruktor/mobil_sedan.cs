@@ -5,9 +5,9 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sebuah_konstruktor
+namespace Tunggul_Abdul_Majid_242410102058
 {
-    internal class mobil_sedan
+    class mobil_sedan
     {
         public string merk;
         public string nama;
@@ -15,9 +15,9 @@ namespace sebuah_konstruktor
         public int cc;
         public int tahun_keluar;
         public ulong harga;
-        
-        public mobil_sedan(string Merk, string nama_mobil,  int cc_mobil, string warna_mobil, int tahun_keluar_pertama, ulong harga_mobil) 
-        { 
+
+        public mobil_sedan(string Merk, string nama_mobil, int cc_mobil, string warna_mobil, int tahun_keluar_pertama, ulong harga_mobil)
+        {
             merk = Merk;
             nama = nama_mobil;
             cc = cc_mobil;

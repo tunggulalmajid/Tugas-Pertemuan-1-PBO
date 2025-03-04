@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace sebuah_konstruktor
+namespace Tunggul_Abdul_Majid_242410102058
 {
-    internal class burung
+    class burung
     {
         public string nama;
         public string nama_ilmiah;
         public string warna;
         public string asal;
 
-        public burung(string nama_burung,string nama_ilmiah_burung ,string warna_burung, string asal_burung ) 
+        public burung(string nama_burung, string nama_ilmiah_burung, string warna_burung, string asal_burung)
         {
             nama = nama_burung;
             nama_ilmiah = nama_ilmiah_burung;
