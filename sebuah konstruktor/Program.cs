@@ -10,12 +10,12 @@ namespace sebuah_konstruktor
     {
         static void Main(string[] args)
         {
-            ikan wader = new ikan("wader", "waderion", "putih", "sungai", 10000);
-            ikan teri = new ikan("teri", "terion", "putih", "laut", 1000000);
-            burung merpati = new burung("merpati", "merpation", "putih, hitam, abu abu","jawa", 900000 );
-            burung Jalak = new burung("Jalak", "Jalak aja", "putih", "bali", 900);
-            mobil_sedan vios = new mobil_sedan("Toyota Vios", 2001, 1500, "Hitam, Putih", 100000000);
-            mobil_sedan civic = new mobil_sedan("Honda Civic", 2004, 1700, "Hitam, Putih, Merah", 500000000);
+            ikan salmon = new ikan("salmon", "Salmo salar", "Putih", "Laut");
+            ikan cupang = new ikan("Cupang", "Betta Splendens", "Hitam", "Kolam, Aquarium");
+            burung cenderawasih = new burung("Cenderawasih", "Paradisaea Rubra","Merah", "Papua, Indonesia");
+            burung kakatua = new burung("Kakatua", "Cacatuidae", "Putih", "Australia, Indonesia Timur, dan Papua Nugini");
+            mobil_sedan vios = new mobil_sedan("Toyota", "Vios",1500,"Putih", 2022, 5000000000);
+            mobil_sedan camry = new mobil_sedan("Toyota", "Camry", 1500, "Putih", 2023, 6000000000);
         }
     }
 }
